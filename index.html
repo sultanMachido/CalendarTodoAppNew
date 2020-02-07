@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.min.css" />
+ 
+   
+</head>
+<body>
+ 
+    
+<div class="calendar">
+    <div id="firstblock"></div>
+    
+</div>
+
+<style>
+        #loading {
+            display:none;
+        }
+</style>
+<div id='loading'>
+        <img src="img/loading.gif" alt="">
+</div>
+
+
+
+
+<div class="modal-class">
+        <div id='segment'>
+
+        <span id="close">close</span>
+        </div>
+    
+    <div id="cal" class="container">
+        <form action="index.html">
+            <div class="container">
+                    <div class="form-group">
+                            <label for="text">ADD TASK</label>
+                            <input type="text" placeholder="Add Task" class="form-control">
+                            <input type="checkbox" class="check pl-4">
+                        </div>
+            </div>
+             <button type="submit" class="btn btn-primary btn-block">Add</button>
+        </form>
+    </div>
+    
+    <div class="container" id="list-div" >
+            <form >
+                    <div class="container">
+                            <div class="form-group">
+                            
+                                    <input id="form-filter" type="text" placeholder="Filter Task" class="form-control">
+                                </div>
+                    </div>
+            </form>
+        <ul class="list list-group ">
+
+        </ul>
+        <button class="clear btn btn-primary btn-block">Clear Task</button>
+        
+    </div>
+
+    
+</div>
+<script src="jquery-3.4.1.js"></script>
+<script src="index.js"></script>    
+</body>
+</html>

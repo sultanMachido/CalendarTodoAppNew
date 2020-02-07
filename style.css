@@ -1,0 +1,46 @@
+.calendar{
+    margin:0 auto;
+    width: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    
+    
+   
+}
+.days{
+    width:100px;
+    background-color: aquamarine;
+    /* justify-content: center; */
+    align-content: space-between;
+    padding:10px;
+}
+.modal-class{
+    visibility: hidden;
+    z-index: 1;
+    bottom:200px;
+    left:500px;
+    width:400px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px black;
+    transition: all 0.3s ease-out;
+    position: fixed;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 400px;
+    overflow-y: scroll
+
+}
+#firstblock{
+    width:100px
+}
+
+#list-div{
+    margin-top: 10px;
+}
+#loading{
+   margin:0 auto;
+   width:400px;
+   display:block;
+}

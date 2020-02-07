@@ -1,0 +1,111 @@
+{
+  "days": [
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 1
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 2
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 3
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 4
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 5
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 6
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 7
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 8
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 9
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 10
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 11
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 12
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 13
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 14
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 15
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 16
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 17
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 18
+    },
+    {
+      "days": "01",
+      "dates": "Sun Dec 01 2019 00:00:00 GMT+0100 (West Africa Standard Time)",
+      "id": 19
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "task": "working",
+      "daysId": "1"
+    },
+    {
+      "id": "2",
+      "task": "working",
+      "daysId": "1"
+    }
+  ]
+}
