@@ -1,4 +1,5 @@
-import { isNumber } from "util";
+
+
 
 let date = new Date();
 let year = date.getFullYear();
@@ -646,6 +647,7 @@ function displayModal(e){
     var newChild = e.target.lastChild.nodeValue;
     console.log(newChild);
     
+    console.log(typeof 1)
     if (typeof newChild ==='number') {
     console.log(e.target.lastChild)
     console.log(newChild)
