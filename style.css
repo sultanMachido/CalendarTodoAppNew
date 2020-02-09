@@ -28,7 +28,7 @@
     position: fixed;
     box-sizing: border-box;
     padding: 10px;
-    height: 400px;
+    /* height: 400px; */
     overflow-y: scroll
 
 }
