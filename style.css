@@ -44,3 +44,6 @@
    width:400px;
    display:block;
 }
+.calendar p,.calendar h3{
+    text-align: center
+}
