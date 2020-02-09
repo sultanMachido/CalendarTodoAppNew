@@ -647,7 +647,8 @@ function displayModal(e){
     var newChild = e.target.lastChild.nodeValue;
     console.log(newChild);
     
-    console.log(typeof 1)
+    console.log(typeof newChild)
+    
     if (typeof newChild ==='number') {
     console.log(e.target.lastChild)
     console.log(newChild)
