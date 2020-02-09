@@ -664,6 +664,9 @@ function displayModal(e){
      dayModal = document.createElement('p');
      headerModal = document.createElement('h3');
 
+     dayModal.className='modal-text';
+     headerModal.className='modal-text';
+
     headerModal.innerHTML = arrModalDate[0];
     dayModal.innerHTML = arrModalDate[2];
     dayFromModal = arrModalDate[2];
