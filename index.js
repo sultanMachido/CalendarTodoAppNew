@@ -725,7 +725,7 @@ const closeTipButton = document.querySelector('#closeTip');
   task.addEventListener('click',removeTask);
   clear.addEventListener('click',clearTask);
   filter.addEventListener('keyup',filterTask);
-  closeTipButton.addEventListener('click',closeDisplayTip)
+
 
 
 
@@ -1015,10 +1015,7 @@ function displayLoader(){
     
 }
 
-function closeDisplayTip(){
-    document.querySelector('#tip').style.display = 'none';
-    console.log('hey');
-}
+
 
 
 
