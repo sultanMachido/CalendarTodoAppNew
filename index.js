@@ -1016,7 +1016,8 @@ function displayLoader(){
 }
 
 function closeDisplayTip(){
-    document.querySelector('#tip').style.display = 'hidden';
+    document.querySelector('#tip').style.display = 'none';
+    console.log('hey');
 }
 
 

@@ -25,7 +25,7 @@
     background-color: whitesmoke;
     box-shadow: 1px 1px 1px black;
     transition: all 0.3s ease-out;
-    position: fixed;
+    position: absolute;
     box-sizing: border-box;
     padding: 10px;
     /* height: 400px; */
@@ -49,11 +49,8 @@
 }
 
 #tip{
-    width:400px;
-    z-index: 1;
-    left:500px;
-    width:400px;
-}
-#closeTip{
-    color:red
+    color:red;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
 }
