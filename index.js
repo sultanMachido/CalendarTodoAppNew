@@ -580,6 +580,8 @@ var modal = document.querySelector('.modal-class');
 var close = document.querySelector('#close');
 var remove;
 var calendarTask
+var body = document.querySelector('body');
+console.log(body);
 
 parent.addEventListener('click',displayModal);
 close.addEventListener('click',closeModal);
@@ -592,6 +594,14 @@ var childModal;
 displayCalendar();
 
 function displayCalendar(){
+    //add month before calendar
+    let month = getDate();
+    console.log(month[0][1]);
+    let calendarMonth=document.createElement('h1');
+    calendarMonth.innerHTML=month[0][1];
+    calendarMonth.id = 'mnth';
+    console.log(calendarMonth)
+    body.insertBefore(calendarMonth,body.childNodes[0]);
     
     for (let index = 1; index <= daysInMonth[1]; index++) {
         //  d = new Date(2020,0,index);
@@ -755,11 +765,11 @@ function addList(e){
           link.innerHTML = 'delete';
           parentContainer.appendChild(link);  
         
-          let checkBox= document.createElement('input');
-          checkBox.setAttribute('type','checkbox');
-          checkBox.className ='check pl-4';
+        //   let checkBox= document.createElement('input');
+        //   checkBox.setAttribute('type','checkbox');
+        //   checkBox.className ='check pl-4';
 
-          parentContainer.appendChild(checkBox);
+        //   parentContainer.appendChild(checkBox);
 
           task.appendChild(parentContainer);
 
@@ -963,7 +973,7 @@ function checkPendingTask(day,pendingTask){
     }
 }
 
-function getDate(index){
+function getDate(index=1){
     d = new Date(2020,1,index);
      var stringDate = d.toString();
      var arrDate = stringDate.split(' ');

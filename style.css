@@ -57,3 +57,6 @@
 .days p{
     cursor: pointer;
 }
+#mnth{
+    text-align: center;
+}
