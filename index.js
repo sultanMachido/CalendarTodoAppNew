@@ -1014,7 +1014,7 @@ function displayLoader(){
 }
 
 function displayTip(){
-    
+    document.querySelector('#tip').style.display = 'visible';
 }
 
 
