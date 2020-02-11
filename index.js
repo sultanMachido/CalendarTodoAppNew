@@ -718,12 +718,14 @@ const clear = document.querySelector('.clear');
   console.log(clear);
 const filter = document.querySelector('#form-filter');
   console.log(filter);
+const closeTipButton = document.querySelector('#closeTip');
   
 //   document.addEventListener('DOMContentLoaded',getTasks);
   form.addEventListener('submit',addList);
   task.addEventListener('click',removeTask);
   clear.addEventListener('click',clearTask);
   filter.addEventListener('keyup',filterTask);
+  closeTipButton.addEventListener('click',closeDisplayTip)
 
 
 
@@ -1013,8 +1015,8 @@ function displayLoader(){
     
 }
 
-function displayTip(){
-    document.querySelector('#tip').style.display = 'visible';
+function closeDisplayTip(){
+    document.querySelector('#tip').style.display = 'hidden';
 }
 
 
