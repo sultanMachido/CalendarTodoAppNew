@@ -59,13 +59,7 @@ if (leap) {
 
 
 
-// let currentMonth = months[month];
-// let daysInMonth = months[month];
 
-// console.log(currentMonth[0])
-// console.log(daysInMonth[1])
- 
-// console.log(month);
 
 var d;
 var pendingTask;
