@@ -477,6 +477,7 @@ function checkPendingTaskAfterClose(day,pendingTask){
        pendingTask.style.display = 'none';
        pendingTask.style.color ='red';
        console.log('not pending')
+       setTimeout(displayLoader,2000);
        isPending = false;
        document.location.reload()
       
