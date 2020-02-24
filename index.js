@@ -89,7 +89,7 @@ function displayCalendar(){
     calendarMonth.innerHTML=month[0][1];
     calendarMonth.id = 'mnth';
     console.log(calendarMonth)
-    body.insertBefore(calendarMonth,body.childNodes[0]);
+    body.insertBefore(calendarMonth,body.childNodes[1]);
     
     for (let index = 1; index <= daysInMonth[1]; index++) {
         //  d = new Date(2020,0,index);

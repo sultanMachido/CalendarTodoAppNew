@@ -17,7 +17,7 @@
 }
 .modal-class{
     visibility: hidden;
-    z-index: 1;
+    z-index: 200;
     bottom:200px;
     left:500px;
     width:400px;
@@ -60,9 +60,25 @@
     text-align: center;
 }
 
-@media(min-width:400px){
+#backdrop{
+    background-color: rgba(122, 102,100, 0.5);
+    z-index: 100;
+    position: absolute;
+    width:1500px;
+    height: 800px;
+}
+
+@media(max-width:1000px){
+    .modal-class{
+        bottom:200px;
+        left:500px;
+    }
+}
+
+@media(max-width:500px){
     .modal-class{
         left:100px;
         top:100px;
     }
 }
+
